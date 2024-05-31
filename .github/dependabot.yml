@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Verifica atualizações para dependências do GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Verifica atualizações para dependências do Python
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
